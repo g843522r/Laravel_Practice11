@@ -1,7 +1,7 @@
 <!--ここから「PHP/Laravel 11 課題4」より記述200709-->
 
 {{--layouts/profile.blade.phpを読み込む--}}
-@extends('layouts.admin')
+@extends('layouts.profile')
 
 {{--profile.blade.phpの@yield('title')に'プロフィールの新規作成'を埋め込む--}}
 @section('title', 'プロフィールの新規作成')
